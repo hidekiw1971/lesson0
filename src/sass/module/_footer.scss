@@ -1,0 +1,12 @@
+@use "global" as *;
+
+.footer {
+    display: block;
+    width: rem(1100);
+    margin: 0 auto;
+    background: rgba(65, 105, 225, 1);
+
+    @include mq(md) {
+        // 
+    }
+}

@@ -1,0 +1,54 @@
+@use "global" as *;
+
+.main {
+    display: block;
+    width: rem(1100);
+    background: rgba(102, 205, 170, 1);
+    margin: 0 auto;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.main_figure {
+    display: block;
+    padding-top: 63%;
+    position: relative;
+    overflow: hidden;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.main_figure img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.main_feature>ul {
+
+    // 
+    @include mq(md) {
+        display: flex;
+    }
+}
+
+.main_feature>ul>li {
+
+    // 
+    @include mq(md) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // 
+    }
+}
