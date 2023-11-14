@@ -2,11 +2,12 @@
 
 .header {
     display: block;
-    width: rem(1100);
-    margin: 0 auto;
-    background: rgba(255, 140, 0, 1);
+    width: 100%;
+    background: rgba(255, 99, 71, 1);
 
     @include mq(md) {
+        max-width: rem(1100);
+        margin: 0 auto;
         // 
     }
 }

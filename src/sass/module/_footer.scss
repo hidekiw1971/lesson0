@@ -2,11 +2,13 @@
 
 .footer {
     display: block;
-    width: rem(1100);
-    margin: 0 auto;
-    background: rgba(65, 105, 225, 1);
+    width: 100%;
+    background: rgba(0, 128, 0, 1);
+    text-align: center;
 
     @include mq(md) {
+        max-width: rem(1100);
+        margin: 0 auto;
         // 
     }
 }
